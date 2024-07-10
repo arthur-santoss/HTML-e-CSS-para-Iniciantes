@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: Montserrat;
+  margin: 0px;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+img {
+  max-width: 100%;
+}
+
+.cabecalho {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cabecalho > nav {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(150px, auto));
+  gap: 20px;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav > a {
+  background-color: white;
+  color: black;
+  padding: 15px;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.conteudo {
+  display: grid;
+  /* gap: 20px; */
+  margin: 0px 100px 0px 100px;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: white;
+}
+
+.block1,
+.block2,
+.block3,
+.block4 {
+  max-width: 100%;
+  /* height: 300px; */
+  display: grid;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* 1º BLOCO */
+.block1 {
+  text-align: left;
+  place-content: center;
+  /* background-color: #f7f7f7; */
+}
+
+.block1 > h2 {
+  font-size: 40px;
+  margin-right: 20px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-right: 80px;
+  margin-left: 50px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.verMais {
+  margin-right: 20px;
+  margin-left: 50px;
+  background-color: red;
+  place-self: center start;
+  padding: 20px 40px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* 2º BLOCO */
+img {
+  max-width: 100%;
+}
+
+/* 3º BLOCO */
+.block3 {
+  background-color: #f7f7f7;
+  font-size: 60px;
+  text-align: right;
+  font-weight: bold;
+  color: #676565;
+}
+
+.block3 > span {
+  align-self: center;
+  margin-right: 100px;
+}
+
+/* 4º BLOCO */
+.block4 {
+  margin-bottom: 100px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px 10px 10px 50px;
+}
+
+.row > span {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+footer {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  text-align: center;
+}
+
+.icons {
+  width: 150px;
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #f7f7f7;
+  border-radius: 20px;
+}
+
+.icons > a {
+  color: black;
+  /* transition: transform 0.5s ease-in-out; */
+}
+
+/* Hover */
+
+.icons:hover {
+  font-size: 18px;
+  transition: 0.2s;
+  background-color: #e0dfdf;
+}
+
+.verMais:hover {
+  padding: 25px 45px;
+  font-size: 22px;
+  transition: 0.2s;
+}
+
+nav > a:hover {
+  padding: 20px;
+  font-size: 20px;
+  transition: 0.2s;
+}
+
+* {
+  /* border: 1px solid tomato; */
+}
