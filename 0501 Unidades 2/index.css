@@ -1,0 +1,12 @@
+html {
+}
+
+body {
+  margin: 0px;
+}
+
+div {
+  background-color: lightblue;
+  width: calc(100vw - 10vw);
+  height: 100vh;
+}
