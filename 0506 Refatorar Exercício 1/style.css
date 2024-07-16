@@ -8,6 +8,10 @@ body {
   margin-top: 3rem;
 }
 
+*{
+  /* border: 1px solid tomato; */
+}
+
 img {
   max-width: 100%;
   display: block;
@@ -34,14 +38,25 @@ p {
   flex-wrap: wrap;
   gap: 2rem;
   justify-content: center;
+  height: 80px;
 }
+
 
 .menu a {
   background: #ffffff;
   padding: 1rem 2rem;
+  height: 20px;
   border-radius: .5rem;
   color: #000000;
   text-transform: uppercase;
+}
+
+.menu a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1); 
+  padding: 1.2rem 2.2rem;
+  font-size: 1.1rem;
+  transition: .2s; 
 }
 
 .conteudo {
@@ -80,6 +95,17 @@ p {
   padding: 1rem 2rem;
   border-radius: .5rem;
   text-transform: uppercase;
+  height: 20px;
+}
+
+.botao:hover {
+  background: rgb(214, 34, 18);
+  color: #ffffff;
+  padding: 1.2rem 2.2rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  transition: .2s;
+  
 }
 
 .subtitulo {
@@ -89,6 +115,8 @@ p {
   text-align: right;
   padding: 3rem;
   align-self: center;
+  background-image: url(img/onda.svg);
+  background-repeat: repeat;
 }
 
 .vantagens {
@@ -101,6 +129,15 @@ p {
   grid-template-columns: auto 1fr;
   gap: 1rem 2rem;
   padding: 1rem;
+}
+
+.vantagens-item:not(:nth-child(2)) {
+  background-color: #f7f7f7ce;
+}
+
+.vantagens-item:hover {
+  border-left: 4px solid red;
+  transition: .1s;
 }
 
 .vantagens-item p {
