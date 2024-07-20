@@ -8,7 +8,7 @@ body {
   background-color: #f7f7f7;
 }
 
-img {
+.imgMobile img {
   max-width: 100%;
   display: block;
   object-fit: cover;
@@ -310,7 +310,7 @@ p {
     text-align: center;
   }
 
-  .imgMobile {
+  .imgMobile img {
     grid-row: 2;
     max-width: 100%;
     display: block;
@@ -322,10 +322,13 @@ p {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .menu a {
     padding: 0.3rem 8rem;
     /* border: 1px solid tomato; */
     padding: 0.2rem 1rem;
+  }
+  .subtitulo {
+    font-size: 1rem;
   }
 }
