@@ -1,3 +1,15 @@
+.logo {
+  font-size: 3rem;
+}
+
+#lg1 {
+  background-color: #70da1c;
+}
+
+#lg2 {
+  background-color: #ccf235;
+}
+
 .header {
   max-width: 1200px;
   padding: 40px 20px;
