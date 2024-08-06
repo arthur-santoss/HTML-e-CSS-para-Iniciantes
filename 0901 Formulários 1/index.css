@@ -16,6 +16,13 @@ input {
 button {
   display: block;
   margin-top: 20px;
+  font-size: 2rem;
+  padding: 10px 20px;
+  background-color: #caf;
+  border: none;
+  border-radius: 5px;
+  color: #217;
+  cursor: pointer;
 }
 
 .checkbox,
@@ -38,4 +45,14 @@ button {
   margin: 0px;
   width: 20px;
   height: 20px;
+}
+
+select {
+  font-size: 1.2rem;
+  padding: 10px;
+}
+
+textarea {
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
 }
